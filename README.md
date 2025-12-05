@@ -126,7 +126,6 @@ time_table.html:
 
 # OUTPUT
 
-<img width="1913" height="1077" alt="Screenshot 2025-12-05 174912" src="https://github.com/user-attachments/assets/3d284e66-b2c9-4fa0-acc3-d2ac261f11bb" />
 
 # RESULT
 The program for creating slot timetable using basic HTML tags is executed successfully.
