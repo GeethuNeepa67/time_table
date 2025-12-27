@@ -25,117 +25,106 @@ Add your timetable using ```<td>``` tag.
 Execute the program using runserver command.
 
 ## PROGRAM
-
-
 <!DOCTYPE html>
-<html> 
+<html lang="en">
 <head>
-    <title>Timetable</title>
-</head>            
-<title>Google <div class="Timetable"></div></title>
-    <body> 
-     <center> 
-     <img src="/logo.png" height="150" width="800">
-     </center>
-      <h3 align="center">  SLOT TIME TABLE - STUDENT NAME ( ROLL NO. ) </h3>
-        <table align="center" border="5" cellpadding="6" cellspacing="2" bgcolor="cyan">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <html>
+<head>
+    <title>Slot Time Table - GEETHU NEEPA T K (25013790)</title>
+</head>
+<body>
+    <IMG SRC="/static/logo.png"HEIGHT="150"WIDTH="500"BORDER=6>
+    <h2>Saveetha Engineering College</h2>
+    <h3>SLOT TIME TABLE - GEETHU NEEPU T K (25013790)</h3>
+
+    <table border="1">
+        <tr BGCOLOR="YELLOW">
+            <th>Day/Time</th>
+            <th>Monday</th>
+            <th>Tuesday</th>
+            <th>Wednesday</th>
+            <th>Thursday</th>
+            <th>Friday</th>
+            <th>Saturday</th>
+        </tr>
+        <tr BGCOLOR="CYAN">
+            <td BGCOLOR="YELLOW">8-10</td>
+            <td>C-Programe</td>
+            <td>Com-English</td>
+            <td>C-Programe</td>
+            <td></td>
+            <td>Com-English</td>
+            <td>Com-English</td>
+        </tr>
+        <tr BGCOLOR="CYAN">
+            <td BGCOLOR="YELLOW">10-12</td>
+            <td>Web-Application</td>
+            <td>Web-Application</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>Com-English</td>
+        </tr>
+        </tr>
+        <tr BGCOLOR="CYAN">
+            <td BGCOLOR="YELLOW">12-1</td>
+            <td COLSPAN=6 ALIGN="CENTER">LUNCH</td>
+        </tr>
+        <tr BGCOLOR="CYAN">
+            <td BGCOLOR="YELLOW">1-3</td>
+            <td></td>
+            <td>Web-Application</td>
+            <td>Mentor Meet</td>
+            <td>C-Programe</td>
+            <td>C-Programe</td>
+            <td>C-Programe</td>
+        </tr>
+        <tr BGCOLOR="CYAN">
+            <td BGCOLOR="YELLOW">3-5</td>
+            <td></td>
+            <td></td>
+            <td>Web-Application</td>
+            <td></td>
+            <td></td>
+            <td>Web-Application</td>
+        </tr>
+    </table>
+
+    <h3>Subjects</h3>
+    <table border="1">
         <tr>
-          <th bgcolor="yellow">Day</th>    
-          <th bgcolor="yellow">8-10</th>
-          <th bgcolor="yellow">10-12</th>
-          <th bgcolor="yellow">12-1</th>
-          <th bgcolor="yellow">1-3</th>
-          <th bgcolor="yellow">3-5</th>
+            <th>S. No.</th>
+            <th>Subject Code</th>
+            <th>Subject Name</th>
         </tr>
         <tr>
-           <th bgcolor="yellow">MONDAY </th>
-           <td>FREE SLOT  </td>
-           <td>WEB APP    </td>
-           <td rowspan="6">L<br>U<br>N<br>C<br>H </td>
-           <td>PYTHON     </td>
-           <td>FREE SLOT  </td>
+            <td>1.</td>
+            <td>19AI414</td>
+            <td>Fundamentals of Web Application Development (FWAD)</td>
         </tr>
         <tr>
-            <th bgcolor="yellow">TUESDAY  </th>
-            <td>FREE SLOT </td>
-            <td>STATISTICS</td>
-            <td>ENGLISH   </td>
-            <td>FREE SLOT </td>
-         </tr> 
-         <tr>
-            <th bgcolor="yellow">WEDNESDAY </th>
-            <td>FREE SLOT </td>
-            <td>FREE SLOT </td>
-            <td>MENTOR    </td>
-            <td>FREE SLOT </td>
-         </tr> 
-         <tr>
-            <th bgcolor="yellow">THURSDAY  </th>
-            <td>MACHINE   </td>
-            <td>STATISTICS</td>
-            <td>ENGLISH   </td>
-            <td>FREE SLOT </td>
-         </tr>
-          <tr>
-            <th bgcolor="yellow">FRIDAY    </th>
-            <td>MACHINE   </td>
-            <td>PYTHON    </td>
-            <td>C PROGRAM  </td>
-            <td>FREE SLOT </td>
-         </tr>
-         <tr>
-            <th bgcolor="yellow">SATURDAY  </th>
-            <td>STATISTICS</td>
-            <td>C PROGRAM  </td>
-            <td>FREE SLOT </td>
-            <td>WEB  APP  </td>
-         </tr>
-        </table>
-        <br> 
-        <table border="5" cellpadding="7" cellspacing="2" align="center">
-         <tr>
-           <th><h4>S.NO</h4></th>    
-           <th><h4>SUBJECT CODE </h4></th>
-           <th><h4>SUBJECT NAME </h4></th>
-         </tr>
-         <tr>
-            <th>1.</th>
-            <td>4S3-1</td>
-            <td>PYTHON PROGRAMMING  </td>
-         </tr>
-         <tr>
-             <th>2.</th>
-             <td>4V1-2</td>
-             <td>COMMUNICATION ENGLISH  </td>
-          </tr> 
-          <tr>
-             <th>3.</th>
-             <td>4I3-1</td>
-             <td>INTRODUCTION TO MACHINE LEARNING  </td>
-          </tr> 
-          <tr>
-             <th>4.</th>
-             <td>4L1-1</td>
-             <td>FUNDAMENDALS OF C PROGRAMMING  </td>
-          </tr>
-           <tr>
-             <th>5.</th>
-             <td>4M3-1</td>
-             <td>STATISTICS AND NUMERICALS METHODS  </td>
-          </tr>
-          <tr>
-             <th>6.</th>
-             <td>6J1-1</td>
-             <td>FUNDAMENDALS OF WEB APPLICATION DEVELOPMENT   </td>
-          </tr>
-         </table>   
-    </body>
+            <td>2.</td>
+            <td>19EN101</td>
+            <td>Communicative English</td>
+        </tr>
+        <tr>
+            <td>3.</td>
+            <td>Training Saveetha</td>
+            <td>Fundamentals of C Programming</td>
+        </tr>
+    </table>
+</body>
+</html>
+</body>
 </html>
 
-
-
 ## OUTPUT
-<img width="804" height="763" alt="Screenshot 2025-12-05 202135" src="https://github.com/user-attachments/assets/37470d81-3e4d-4dfc-83b6-e10f66e09ace" />
+<img width="1919" height="1028" alt="Screenshot 2025-12-27 180058" src="https://github.com/user-attachments/assets/aef68d70-c0de-4c89-bdbe-d8ad7f1f33da" />
 
 ## RESULT
 The program for creating slot timetable using basic HTML tags is executed successfully.
